@@ -46,4 +46,4 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV['DBURI'] %>
+  url: <%= ENV['DATABASE_URL'] %>
